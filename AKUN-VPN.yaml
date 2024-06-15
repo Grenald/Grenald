@@ -1,0 +1,31 @@
+proxies:
+- name: xcp
+  server: quiz.vidio.com
+  port: 443
+  type: trojan
+  password: jagoanssh-Hgfdhkkjg
+  network: ws
+  sni: id1go.ipservers.xyz
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: trojan
+  headers:
+    Host: id1go.ipservers.xyz
+- name: linkgo quiz
+  server: quiz.vidio.com
+  port: 443
+  type: trojan
+  password: daee49c0-2b1c-11ef-8b36-1239d0255272
+  skip-cert-verify: true
+  sni: sg3-trojan.bonds.id
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: sg3-trojan.bonds.id
+  udp: true    
+
+
+
+
